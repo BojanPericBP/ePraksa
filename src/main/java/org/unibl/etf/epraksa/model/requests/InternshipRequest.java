@@ -36,7 +36,7 @@ public class InternshipRequest {
     @Min(3)
     @Max(4)
     private Integer year;
-
+    @Min(0)
     private Integer workHours;
 
     @NotBlank
